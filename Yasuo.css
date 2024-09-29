@@ -1,0 +1,157 @@
+/* Estilo Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    color: #cccccc;
+}
+
+body {
+    background-color: #000000; /* Fundo preto */
+    line-height: 1.6;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    background-color: #333333; /* Fundo cinza escuro */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #0b3d91; /* Azul escuro */
+}
+
+nav a {
+    color: #cccccc; /* Texto cinza claro */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #990000; /* Hover vermelho escuro */
+}
+
+/* Estilo das Seções */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #0b3d91; /* Azul escuro */
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Elemento Details */
+details {
+    background-color: #444444;
+    border: 1px solid #555555;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+details summary {
+    cursor: pointer;
+    font-size: 20px;
+    color: #cccccc;
+}
+
+details p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #cccccc;
+}
+
+/* Estilo de Imagens */
+figure {
+    display: inline-block;
+    margin: 20px;
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+figure img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+figure figcaption {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+/* Estilo dos Formulários */
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+form label {
+    font-size: 18px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: none;
+    background-color: #000000;
+    color: #cccccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #0b3d91; /* Azul escuro */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #990000; /* Hover vermelho escuro */
+}
+
+/* Estilo do Rodapé */
+footer {
+    background-color: #000000;
+    color: #cccccc;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+/* Linha Horizontal */
+hr {
+    border: 1px solid #555555;
+    margin: 40px 0;
+}
